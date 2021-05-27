@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+}
+
+canvas {
+  position: fixed; /*canvasを固定*/
+  top: 0; /*canvasを上に固定*/
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%); */
+}
+
+h1{
+  font-size:2em;
+  color: #aaaaaa;
+}
